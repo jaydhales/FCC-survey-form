@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background: blue; */
+  /* background: rgba(208, 208, 253, 0.5); */
+  /* background: #0000ff; */
+  /* background: hsl(); */
+  background: url("https://images.pexels.com/photos/8908751/pexels-photo-8908751.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+.container {
+  background: rgb(0, 0, 255, 0.7);
+  /* height: 100vh; */
+}
+
+.inner-container {
+  width: 400px;
+  margin: auto;
+}
+
+form {
+  background: rgba(0, 0, 109, 0.8);
+  /* Absolute length: cm,mm,in, 'px' */
+  /* padding: 5px; */
+  /* Relative length: rem,em,vw,vh,% */
+  padding: 20px;
+  /* height: 10vw; */
+
+  /* Dimension */
+}
+
+.form-group {
+  display: grid;
+  margin: 1rem 0;
+}
+
+.form-control {
+  width: 100%;
+  padding: 5px;
+}
+
+label,
+p {
+  margin: 5px 0;
+}
+
+.input-radio,
+.input-checkbox {
+  margin-right: 5px;
+}
+
+.input-textarea {
+  height: 100px;
+}
+
+.submit-button {
+  background: green;
+  border: none;
+  padding: 0.5rem;
+  color: white;
+}
