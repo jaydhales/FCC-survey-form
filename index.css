@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background: blue; */
+  /* background: rgba(208, 208, 253, 0.5); */
+  /* background: #0000ff; */
+  /* background: hsl(); */
+  background: url("https://images.pexels.com/photos/8908751/pexels-photo-8908751.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+.container {
+  background: rgb(0, 0, 255, 0.7);
+  /* height: 100vh; */
+}
+
+.inner-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 24px;
+  /* text-shadow: 10px 10px 15px rgb(0, 0, 0); */
+}
+
+span {
+  font-style: italic;
+}
+
+input::placeholder {
+  font-size: 12px;
+}
+
+header {
+  text-align: center;
+  /* text-decoration: none; */
+  /* text-transform: uppercase; */
+  line-height: 1.5rem;
+  padding: 2rem 1rem 1rem;
+}
+
+article p {
+  /* letter-spacing: 3px;
+  word-spacing: 10px; */
+  /* line-height: 1.5rem; */
+  /* text-indent: 35px; */
+}
+
+form {
+  background: rgba(0, 0, 109, 0.8);
+  /* Absolute length: cm,mm,in, 'px' */
+  /* padding: 5px; */
+  /* Relative length: rem,em,vw,vh,% */
+  padding: 20px;
+  /* height: 10vw; */
+  /* Dimension */
+}
+
+.form-group {
+  display: grid;
+  margin: 1rem 0;
+}
+
+.form-control {
+  width: 100%;
+  padding: 5px;
+}
+
+label,
+p {
+  margin: 5px 0;
+}
+
+.input-radio,
+.input-checkbox {
+  margin-right: 5px;
+}
+
+.input-textarea {
+  height: 100px;
+}
+
+.submit-button {
+  background: green;
+  border: none;
+  padding: 0.5rem;
+  color: white;
+  font-weight: 700;
+}
+
+.submit-button:hover {
+  background: #008800;
+}
